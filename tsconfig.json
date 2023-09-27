@@ -4,11 +4,11 @@
 
   "compilerOptions": {
     // Корневой путь к содержимому
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@assets/*": ["assets/*"],
-      "@components/*": ["components/*"],
-      "@api/*": ["api/*"]
+      "@/assets/*": ["assets/*"],
+      "@/components/*": ["components/*"],
+      "@/api/*": ["api/*"]
     }
   }
 }
