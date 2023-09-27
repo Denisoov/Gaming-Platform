@@ -9,9 +9,6 @@ export default defineNuxtConfig({
     dirs: ["store"],
   },
   css: ["@/assets/css/main.css"],
-  prettier: {
-    plugins: ["prettier-plugin-tailwindcss"],
-  },
   postcss: {
     plugins: {
       tailwindcss: {},
