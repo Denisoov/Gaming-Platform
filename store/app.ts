@@ -1,9 +1,9 @@
-import { defineStore } from 'pinia';
+import { defineStore } from "pinia";
 
-export const useAppStore = defineStore('APP', {
+export const useAppStore = defineStore("APP", {
   state: () => {
     return {
-      version: '0.01',
+      version: "0.01",
     };
   },
 });

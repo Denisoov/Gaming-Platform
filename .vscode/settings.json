@@ -1,20 +1,14 @@
 {
   "editor.codeActionsOnSave": {
-
     "source.fixAll.eslint": true
   },
 
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "stylelint.configOverrides": {
     "ignoreFiles": [
-    // Игнорируем все файлы .cjs 
-    "**/*.cjs",
-    "**/.*.cjs"
+      // Игнорируем все файлы .cjs
+      "**/*.cjs",
+      "**/.*.cjs"
     ]
   }
 }
-
-

@@ -1,14 +1,17 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxtjs/eslint-module'],
+  modules: ["@pinia/nuxt", "@nuxtjs/eslint-module"],
   pinia: {
-    autoImports: ['defineStore'],
+    autoImports: ["defineStore"],
   },
   // Настройка автоимпортов
   imports: {
-    dirs: ['store'],
+    dirs: ["store"],
   },
-  css: ['@/assets/css/main.css'],
+  css: ["@/assets/css/main.css"],
+  prettier: {
+    plugins: ["prettier-plugin-tailwindcss"],
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
