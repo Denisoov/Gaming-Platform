@@ -1,13 +1,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: [
-    '@pinia/nuxt'
-  ],
+  modules: ['@pinia/nuxt', '@nuxtjs/eslint-module'],
   pinia: {
-    autoImports: [
-      'defineStore', 
-    ],
+    autoImports: ['defineStore'],
   },
+  // Настройка автоимпортов
   imports: {
     dirs: ['store'],
   },
@@ -18,4 +15,4 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-})
+});
