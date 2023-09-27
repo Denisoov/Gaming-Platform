@@ -1,3 +1,14 @@
 {
-  "extends": "./.nuxt/tsconfig.json"
+  // Автоматическая генерирует
+  "extends": "./.nuxt/tsconfig.json",
+
+  "compilerOptions": {
+    // Корневой путь к содержимому
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@components/*": ["components/*"],
+      "@api/*": ["api/*"]
+    }
+  }
 }
